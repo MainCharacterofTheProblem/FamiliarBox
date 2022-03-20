@@ -303,7 +303,7 @@
 
     <!--
     Instead of loading js beepbox editor interface directly, test for browser support.
-    <script type="text/javascript" src="beepbox_editor.min.js"></script>
+    <script type="text/javascript" src="beepbox_editor.js"></script>
     -->
     <script type="text/javascript">
 
@@ -354,7 +354,7 @@
             // Go ahead and load js beepbox editor interface:
             var fileref = document.createElement("script");
             fileref.setAttribute("type", "text/javascript");
-            fileref.setAttribute("src", "beepbox_editor.min.js");
+            fileref.setAttribute("src", "beepbox_editor.js");
             document.head.appendChild(fileref);
         } else {
             document.getElementById("beepboxEditorContainer").innerHTML = "Sorry, Todbox doesn't support your browser. Try a recent version of Chrome, Firefox, Edge, Safari, or Opera.";
